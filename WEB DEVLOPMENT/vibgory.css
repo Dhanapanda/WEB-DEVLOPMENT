@@ -1,0 +1,31 @@
+
+body{
+    background: red;
+}
+td{
+    height: 300px;
+    width: 150px;
+    background: red;
+    border:6px solid white;
+}
+#ONE{
+    background-color:#9400D3;
+} 
+#TWO{
+    background-color: #4B0082;
+} 
+#THREE{
+    background-color:#0000FF;
+} 
+#FOUR{
+    background-color:#00FF00 ;
+} 
+#FIVE{
+    background-color:#FFFF00;
+} 
+#SIX{
+    background-color:#FF7F00;
+} 
+#SEVEN{
+    background-color:#FF0000;
+} 

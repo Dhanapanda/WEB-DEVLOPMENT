@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    background: url(https://images.pexels.com/photos/2680270/pexels-photo-2680270.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background: linear-gradient(rgba(0, 0, 0, 0.123),(rgba(0, 0, 0, 0.7)));
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    align-items: center;
+    overflow-x: hidden;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 20px 100px;
+}
+nav img{
+    width: 150px;
+}
+nav ul{
+    text-align: right;
+    display: inline;
+    list-style: none;
+    flex: 1;
+}
+nav ul li{
+    display: inline-block;
+    margin:0 20px;
+}
+.main{
+    margin: 15% auto;
+    text-align: center;
+}
+.main h1{
+    font-size: 50px;
+}
+.main .button{
+    text-decoration: none;
+    display:block;
+    width: 100px;
+    height: 40px;
+    margin: 20px auto;
+    color: #fff;
+    line-height: 35px;
+    border: 1px solid #fff;
+}
+.button :hover{
+    background: #000;
+    color: #fff;
+    transition: 0.5s;
+}
+.image{
+    opacity: 0,2;
+    animation: animate 8s linear infinite;
+}
+@keyframes animate{
+    0%{
+        left: 0;
+    }
+    100%{
+        left: -1900px;
+    }
+}
