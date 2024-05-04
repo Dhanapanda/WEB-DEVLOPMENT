@@ -1,0 +1,42 @@
+body{
+    background:
+    url("https://https://i.ytimg.com/vi/qbRDRyl3LZg/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+h1{
+    color:blue;
+}
+h2{
+    color:red;
+}
+h3{
+    color:red;
+}
+p{
+    color:yellow;
+}
+p1{
+    color:blueviolet;
+    font-size: 100%;
+}
+p2{
+    color: blueviolet;
+    font-size: larger;
+}
+select{
+    color:blue;
+}
+option{
+    color: rgb(23, 0, 128);
+}
+ul{
+    color: blue;
+    font-size: 100%;
+}
+/*body{
+    border-color: crimson;
+    border-color: red;
+    border-style: solid;
+}*/
